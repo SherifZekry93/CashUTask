@@ -7,7 +7,7 @@
 //
 
 import UIKit
-wimport SwiftMessages
+import SwiftMessages
 class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
     
     var results:[Repo] = [Repo]()
