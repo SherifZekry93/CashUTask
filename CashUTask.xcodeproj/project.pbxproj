@@ -12,9 +12,25 @@
 		7E1C6D3E22BB939600BB424F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C6D3C22BB939600BB424F /* Main.storyboard */; };
 		7E1C6D4022BB939A00BB424F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C6D3F22BB939A00BB424F /* Assets.xcassets */; };
 		7E1C6D4322BB939A00BB424F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C6D4122BB939A00BB424F /* LaunchScreen.storyboard */; };
+		7E1C6D4E22BB944800BB424F /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D4D22BB944800BB424F /* Repo.swift */; };
+		7E1C6D5022BB9A9700BB424F /* AllRepositriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D4F22BB9A9700BB424F /* AllRepositriesVC.swift */; };
+		7E1C6D5322BB9ABF00BB424F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D5222BB9ABF00BB424F /* Service.swift */; };
+		7E1C6D5822BB9B7800BB424F /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D5722BB9B7800BB424F /* UILabel.swift */; };
+		7E1C6D5A22BB9CCE00BB424F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D5922BB9CCE00BB424F /* UIView.swift */; };
+		7E1C6D5C22BB9D8600BB424F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D5B22BB9D8600BB424F /* String.swift */; };
+		7E1C6D5E22BB9DDF00BB424F /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D5D22BB9DDF00BB424F /* CollectionView.swift */; };
+		7E1C6D6122BB9E3400BB424F /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6022BB9E3400BB424F /* RepoCell.swift */; };
+		7E1C6D6322BBB64600BB424F /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6222BBB64600BB424F /* UIStackView.swift */; };
+		7E1C6D6522BBC14900BB424F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6422BBC14900BB424F /* UIButton.swift */; };
+		7E1C6D6722BBD47200BB424F /* AllRepositries+CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6622BBD47200BB424F /* AllRepositries+CV.swift */; };
+		7E1C6D6922BC8A5000BB424F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6822BC8A5000BB424F /* Alamofire.swift */; };
+		7E1C6D6F22BCD37A00BB424F /* BaseCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C6D6E22BCD37A00BB424F /* BaseCVController.swift */; };
+		CC382FB3F7648632D24C2F6E /* Pods_CashUTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CC76ED23C96F3962525391 /* Pods_CashUTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28CC76ED23C96F3962525391 /* Pods_CashUTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashUTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E62A0BDFDFAF04C9E3F9952 /* Pods-CashUTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashUTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashUTask/Pods-CashUTask.debug.xcconfig"; sourceTree = "<group>"; };
 		7E1C6D3522BB939600BB424F /* CashUTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashUTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1C6D3822BB939600BB424F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E1C6D3A22BB939600BB424F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,20 @@
 		7E1C6D3F22BB939A00BB424F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1C6D4222BB939A00BB424F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E1C6D4422BB939A00BB424F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1C6D4D22BB944800BB424F /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		7E1C6D4F22BB9A9700BB424F /* AllRepositriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRepositriesVC.swift; sourceTree = "<group>"; };
+		7E1C6D5222BB9ABF00BB424F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7E1C6D5722BB9B7800BB424F /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		7E1C6D5922BB9CCE00BB424F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7E1C6D5B22BB9D8600BB424F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7E1C6D5D22BB9DDF00BB424F /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		7E1C6D6022BB9E3400BB424F /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		7E1C6D6222BBB64600BB424F /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		7E1C6D6422BBC14900BB424F /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		7E1C6D6622BBD47200BB424F /* AllRepositries+CV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllRepositries+CV.swift"; sourceTree = "<group>"; };
+		7E1C6D6822BC8A5000BB424F /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		7E1C6D6E22BCD37A00BB424F /* BaseCVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCVController.swift; sourceTree = "<group>"; };
+		BEB6ED29627756EEC60F3962 /* Pods-CashUTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashUTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashUTask/Pods-CashUTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC382FB3F7648632D24C2F6E /* Pods_CashUTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				7E1C6D3722BB939600BB424F /* CashUTask */,
 				7E1C6D3622BB939600BB424F /* Products */,
+				81F2159A71E7B9C33897C0D7 /* Pods */,
+				917CF81CBDAF9CA730F40C0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +87,11 @@
 		7E1C6D3722BB939600BB424F /* CashUTask */ = {
 			isa = PBXGroup;
 			children = (
+				7E1C6D5622BB9B6E00BB424F /* Extensions */,
+				7E1C6D5122BB9AB800BB424F /* Service */,
+				7E1C6D4C22BB943700BB424F /* View */,
+				7E1C6D4B22BB943300BB424F /* Model */,
+				7E1C6D4A22BB942D00BB424F /* Controller */,
 				7E1C6D3822BB939600BB424F /* AppDelegate.swift */,
 				7E1C6D3A22BB939600BB424F /* ViewController.swift */,
 				7E1C6D3C22BB939600BB424F /* Main.storyboard */,
@@ -64,6 +102,87 @@
 			path = CashUTask;
 			sourceTree = "<group>";
 		};
+		7E1C6D4A22BB942D00BB424F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D6D22BCD36F00BB424F /* Base */,
+				7E1C6D4F22BB9A9700BB424F /* AllRepositriesVC.swift */,
+				7E1C6D6622BBD47200BB424F /* AllRepositries+CV.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E1C6D4B22BB943300BB424F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D4D22BB944800BB424F /* Repo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E1C6D4C22BB943700BB424F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D5F22BB9DFB00BB424F /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E1C6D5122BB9AB800BB424F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D5222BB9ABF00BB424F /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7E1C6D5622BB9B6E00BB424F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D5722BB9B7800BB424F /* UILabel.swift */,
+				7E1C6D5922BB9CCE00BB424F /* UIView.swift */,
+				7E1C6D5B22BB9D8600BB424F /* String.swift */,
+				7E1C6D5D22BB9DDF00BB424F /* CollectionView.swift */,
+				7E1C6D6222BBB64600BB424F /* UIStackView.swift */,
+				7E1C6D6422BBC14900BB424F /* UIButton.swift */,
+				7E1C6D6822BC8A5000BB424F /* Alamofire.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E1C6D5F22BB9DFB00BB424F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D6022BB9E3400BB424F /* RepoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7E1C6D6D22BCD36F00BB424F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C6D6E22BCD37A00BB424F /* BaseCVController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		81F2159A71E7B9C33897C0D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E62A0BDFDFAF04C9E3F9952 /* Pods-CashUTask.debug.xcconfig */,
+				BEB6ED29627756EEC60F3962 /* Pods-CashUTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		917CF81CBDAF9CA730F40C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28CC76ED23C96F3962525391 /* Pods_CashUTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E1C6D4722BB939A00BB424F /* Build configuration list for PBXNativeTarget "CashUTask" */;
 			buildPhases = (
+				F5A0AA9A68F5FF32859B63CC /* [CP] Check Pods Manifest.lock */,
 				7E1C6D3122BB939600BB424F /* Sources */,
 				7E1C6D3222BB939600BB424F /* Frameworks */,
 				7E1C6D3322BB939600BB424F /* Resources */,
+				3CD0EC0B9227D3418FD58EE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +251,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CD0EC0B9227D3418FD58EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CashUTask/Pods-CashUTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashUTask/Pods-CashUTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A0AA9A68F5FF32859B63CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashUTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E1C6D3122BB939600BB424F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1C6D5A22BB9CCE00BB424F /* UIView.swift in Sources */,
+				7E1C6D6522BBC14900BB424F /* UIButton.swift in Sources */,
+				7E1C6D5022BB9A9700BB424F /* AllRepositriesVC.swift in Sources */,
+				7E1C6D4E22BB944800BB424F /* Repo.swift in Sources */,
+				7E1C6D5C22BB9D8600BB424F /* String.swift in Sources */,
+				7E1C6D5822BB9B7800BB424F /* UILabel.swift in Sources */,
+				7E1C6D6922BC8A5000BB424F /* Alamofire.swift in Sources */,
+				7E1C6D5E22BB9DDF00BB424F /* CollectionView.swift in Sources */,
+				7E1C6D6322BBB64600BB424F /* UIStackView.swift in Sources */,
+				7E1C6D5322BB9ABF00BB424F /* Service.swift in Sources */,
+				7E1C6D6722BBD47200BB424F /* AllRepositries+CV.swift in Sources */,
 				7E1C6D3B22BB939600BB424F /* ViewController.swift in Sources */,
+				7E1C6D6122BB9E3400BB424F /* RepoCell.swift in Sources */,
+				7E1C6D6F22BCD37A00BB424F /* BaseCVController.swift in Sources */,
 				7E1C6D3922BB939600BB424F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +457,11 @@
 		};
 		7E1C6D4822BB939A00BB424F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E62A0BDFDFAF04C9E3F9952 /* Pods-CashUTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUS473JQDG;
 				INFOPLIST_FILE = CashUTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +476,11 @@
 		};
 		7E1C6D4922BB939A00BB424F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB6ED29627756EEC60F3962 /* Pods-CashUTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUS473JQDG;
 				INFOPLIST_FILE = CashUTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
