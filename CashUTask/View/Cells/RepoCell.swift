@@ -84,7 +84,6 @@ class RepoCell: UICollectionViewCell {
         self.repoNameLabel.text = repo.name
         self.isArchivedButton.isHidden = repo.archived
         self.repoDescriptionLabel.text = repo.description
-        print(repo.archived)
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

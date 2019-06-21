@@ -20,15 +20,13 @@ class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
         super.viewDidLoad()
         setupCollectionView()
         setupNavigationController()
-        results = getSavedRepositries()
-        if results.count == 0
+        getSavedRepositries()
+        if !Connectivity.isConnectedToInternet()
         {
-            getRepositryData(page: currentPage)
+            showMessage(body: "You are offline", theme: .error)
         }
-        else
-        {
-            currentPage = results.count / 15
-        }
+        
+     
     }
     
     
@@ -81,21 +79,26 @@ class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
     }
     let userDefaultsKey:String = "userDefaultsKey"
     
-    func getSavedRepositries() -> [Repo]
+    func getSavedRepositries()
     {
         if let data = UserDefaults.standard.value(forKey:"SavedRepo") as? Data {
             do
             {
-                let results = try PropertyListDecoder().decode(Array<Repo>.self, from: data)
-                return results
-
+                results = try PropertyListDecoder().decode(Array<Repo>.self, from: data)
+                if results.count == 0
+                {
+                    getRepositryData(page: currentPage)
+                }
+                else
+                {
+                    currentPage = results.count / 15
+                }
             }
             catch
             {
                 showMessage(body: "Unable to retrieve data", theme: .error)
             }
         }
-        return [Repo]()
     }
     func handleSaveData()
     {
