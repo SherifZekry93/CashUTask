@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import ProgressHUD
-import SwiftMessages
+wimport SwiftMessages
 class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
     
     var results:[Repo] = [Repo]()
