@@ -41,8 +41,4 @@ extension AllRepositriesVC
         collectionView.registerCell(cell: RepoCell.self)
         collectionView.backgroundColor = .lightGray
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-        let height:CGFloat = isDoneLoadingData ? 0 : 100
-        return CGSize(width: view.frame.width, height: height)
-    }
 }

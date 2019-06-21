@@ -36,6 +36,7 @@ class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
     {
         if !Connectivity.isConnectedToInternet()
         {
+            isPaginating = false
             showMessage(body: "You are not connected to the internet", theme: .error)
             return
         }
@@ -57,7 +58,7 @@ class AllRepositriesVC: BaseCVController,UICollectionViewDelegateFlowLayout {
                     if res.count == 0
                     {
                         self?.isDoneLoadingData = true
-                        self?.showMessage(body: "There are no more data to show", theme: .info)
+                        self?.showMessage(body: "There is no more data to show", theme: .info)
                     }
                 }
                 DispatchQueue.main.async {
